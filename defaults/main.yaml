@@ -5,6 +5,5 @@ install_ospf_packages:
   raspbian: &raspbian
     - "frr"
     - "frr-pythontools"
-  debian_armv6l: *raspbian
   debian_armv7l: *raspbian
   redhat_x86_64: *centos
